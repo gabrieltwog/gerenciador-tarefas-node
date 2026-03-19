@@ -31,7 +31,7 @@ Cada tarefa recebe uma prioridade (alta, média ou baixa) e é exibida com cores
 ## 🚀 How to use (English)
 Clone this repository:
    ```bash
-   git clone https://github.com/gabrieltwog/gerador-tarefas-node.git
+   git clone https://github.com/gabrieltwog/gerador-tarefas-node.git](https://github.com/gabrieltwog/gerenciador-tarefas-node
 
 
 
