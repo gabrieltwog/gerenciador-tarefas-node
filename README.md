@@ -29,8 +29,17 @@ Cada tarefa recebe uma prioridade (alta, média ou baixa) e é exibida com cores
 ---
 
 ## 🚀 How to use / Como usar
-```bash
-git clone https://github.com/gabrieltwog/gerador-tarefas-node.git
-cd gerador-tarefas-node
-node gerador-tarefas.js
+
+### 🇺🇸 English
+1. Download the project from GitHub (green button **Code → Download ZIP**).  
+2. Extract the file into a folder.  
+3. In the terminal, inside the folder, run:
+
+### 🇧🇷 Português
+1. Baixe o projeto no GitHub (botão verde **Code → Download ZIP**).  
+2. Extraia o arquivo em uma pasta.  
+3. No terminal, dentro da pasta, rode:
+
+## 🔗 Repository
+👉 [Access the project here](https://github.com/gabrieltwog/gerador-tarefas-node)
 
