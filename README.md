@@ -41,5 +41,5 @@ Cada tarefa recebe uma prioridade (alta, média ou baixa) e é exibida com cores
 3. No terminal, dentro da pasta, rode:
 
 ## 🔗 Repository
-👉 [Access the project here](https://github.com/gabrieltwog/gerador-tarefas-node)
+👉 [Access the project here](https://github.com/gabrieltwog/gerenciador-tarefas-node.git)
 
