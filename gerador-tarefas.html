@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciador de Tarefas</title>
+</head>
+<body>
+  <h1>Gerenciador de Tarefas</h1>
+  <input id="nome" placeholder="Digite a tarefa">
+  <select id="prioridade">
+    <option value="alta">Alta</option>
+    <option value="media">Média</option>
+    <option value="baixa">Baixa</option>
+  </select>
+  <button onclick="adicionarTarefa()">Adicionar</button>
+
+  <ul id="lista"></ul>
+
+  <script>
+    let tarefas = [];
+
+    function mostrarTarefas() {
+      const lista = document.getElementById("lista");
+      lista.innerHTML = "";
+      tarefas.forEach((tarefa, i) => {
+        let cor;
+        if (tarefa.prioridade === "alta") cor = "red";
+        else if (tarefa.prioridade === "media") cor = "orange";
+        else cor = "green";
+
+        const item = document.createElement("li");
+        item.textContent = `${i + 1}. ${tarefa.nome}`;
+        item.style.color = cor;
+        lista.appendChild(item);
+      });
+    }
+
+    function adicionarTarefa() {
+      const nome = document.getElementById("nome").value;
+      const prioridade = document.getElementById("prioridade").value;
+      tarefas.push({ nome, prioridade });
+      mostrarTarefas();
+    }
+  </script>
+</body>
+</html>
+
